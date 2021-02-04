@@ -44,7 +44,7 @@ var input = document.getElementById('cityname');
 
 document.getElementById('clickedByCity').addEventListener('click',function(){
 
-fetch("https://api.openweathermap.org/data/2.5/weather?q="+input.value+"&appid=82a7202a59904ec2a14c4cfa6b2565dd")
+fetch("http://api.openweathermap.org/data/2.5/weather?q="+input.value+"&appid=82a7202a59904ec2a14c4cfa6b2565dd")
 
 .then(response => response.json())
 
